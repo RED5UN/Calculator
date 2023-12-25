@@ -59,3 +59,24 @@ h1 {
     font-family: fantasy;
     margin-top: 100px;
 }   
+
+@media screen and (max-width: 600px)
+{
+.container{
+  width: 10%;
+  height: 30%;
+  padding-left: 180px;
+  margin-bottom: 200px;
+
+  
+}
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px)
+{ 
+.container{
+  width: 80%;
+  height: 80%;
+  
+}
+}
