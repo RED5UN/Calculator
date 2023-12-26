@@ -19,7 +19,7 @@ body{
     background-color: #3a4452;
     padding: 20px;
     border-radius: 10px;
-    position: fixed;
+    position:fixed;
     
 }
 
@@ -60,23 +60,42 @@ h1 {
     margin-top: 100px;
 }   
 
-@media screen and (max-width: 600px)
-{
-.container{
-  width: 10%;
-  height: 30%;
-  padding-left: 180px;
-  margin-bottom: 200px;
+@media screen and (max-width: 480px) {
+    .calculator {
+        width: 60%;
+        margin: 30px auto; /* Center the calculator on smaller screens */
+        padding: 15px;
+        height: 42%;
+    }
 
-  
-}
+    .calculator form input {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        margin: 5px;
+    }
+
+    form .display input {
+        font-size: 30px;
+    }
 }
 
-@media screen and (max-width: 900px) and (min-width: 600px)
-{ 
-.container{
-  width: 80%;
-  height: 80%;
-  
-}
+/* Media Queries for Tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .calculator {
+        width: 70%;
+        margin: 30px auto; /* Center the calculator on tablet screens */
+        padding: 20px;
+    }
+
+    .calculator form input {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+        margin: 8px;
+    }
+
+    form .display input {
+        font-size: 36px;
+    }
 }
