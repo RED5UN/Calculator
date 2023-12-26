@@ -65,7 +65,7 @@ h1 {
         width: 60%;
         margin: 30px auto; /* Center the calculator on smaller screens */
         padding: 15px;
-        height: 42%;
+        height: 52%;
     }
 
     .calculator form input {
